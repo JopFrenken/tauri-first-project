@@ -1,0 +1,20 @@
+{
+  "name": "tauri-first-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.js",
+    "build": "tsc && vite build",
+    "tauri": "tauri",
+    "scss": "sass --watch src/style/scss:src/style/css"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.6",
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.1",
+    "vite": "^4.5.0"
+  }
+}

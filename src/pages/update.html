@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <link rel="stylesheet" href="style/css/app.css">
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Update User</h1>
+      <div class="inputs-container">
+        <label for="user-select">Select User:</label>
+      <select id="user-select" class="dropdown">
+        <!-- Options for users will be dynamically added here -->
+      </select>
+      
+      <label for="new-username">New Username:</label>
+      <input type="text" class="new-username" class="input-field" />
+      
+      <label for="new-email">New Email:</label>
+      <input type="email" class="new-email" class="input-field" />
+      
+      <button class="update-btn">Update User</button>
+      </div>
+      <a href="index.html">Go back to home</a>
+    </div>
+  </body>
+</html>
